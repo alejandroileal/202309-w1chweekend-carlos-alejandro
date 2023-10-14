@@ -1,6 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Nunito+Sans:ital,opsz,wght@0,6..12,700;1,6..12,700&family=Poppins:wght@400;600;700&display=swap");
+body {
+  background-color: #f8f9ff;
+}
+
+p {
+  font-family: "Mulish", sans-serif;
+}
+
 * {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+}
+* img {
+  width: 100%;
 }
 
 .width-limiter {
@@ -8,8 +20,6 @@
 }
 
 .header__width__limiter {
-  border-style: solid;
-  border-color: red;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,11 +62,46 @@
   padding-block: 1.6rem;
   border-radius: 20px;
   width: 15rem;
+  align-self: center;
+  margin-inline: auto;
+  margin-top: 2rem;
 }
 
 .section__limiter__button__p {
   font-size: 1rem;
   color: white;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  text-align: center;
+}
+
+.section__container__options {
+  display: flex;
+  background-color: white;
+  width: 16rem;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.section__master__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.image__phone2 {
+  margin-top: 2.3rem;
 }
 
 /*# sourceMappingURL=style.css.map */
