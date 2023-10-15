@@ -67,6 +67,11 @@ p {
   font-weight: bold;
 }
 
+@media (min-width: 768px) {
+  .section__limiter__button {
+    margin-inline: 0px;
+  }
+}
 .section__limiter__button__p {
   font-size: 1rem;
   color: white;
@@ -169,14 +174,32 @@ h3 {
   text-align: center;
   color: white;
   font-weight: bold;
+  display: none;
 }
 .section__limiter__button__white p {
   color: #039379;
 }
 
+@media (min-width: 768px) {
+  .section__limiter__button__white {
+    display: inline;
+  }
+  .section {
+    display: flex;
+    gap: 1vh;
+  }
+  .phone1__image {
+    width: 50vh;
+  }
+  .section__limiter__p,
+  .section__limiter__h1 {
+    text-align: left;
+  }
+}
 .buttons__container {
   display: flex;
   gap: 1rem;
+  margin-top: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */
