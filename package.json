@@ -10,7 +10,7 @@
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "Alejandro Irastorza",
+  "author": "",
   "license": "ISC",
   "prettier": {
     "singleQuote": true

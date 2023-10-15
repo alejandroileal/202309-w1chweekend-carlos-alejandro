@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Nunito+Sans:ital,opsz,wght@0,6..12,700;1,6..12,700&family=Poppins:wght@400;600;700&display=swap');
+$green-color: #039379;
+$yellow-color: #f9d67e;
+$offwhite-color: #f8f9ff;
+$darkgrey-color: #2d2d2d2d;
+$lightgreen-color: #e5f4f2;
+
+body {
+  background-color: $offwhite-color;
+}
+p {
+  font-family: 'Mulish', sans-serif;
+}
+
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  img {
+    width: 100%;
+  }
+}
+.width-limiter {
+  margin-inline: 3rem;
+}
+.header__width__limiter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+}
+.section__limiter {
+  margin-inline: 0.5rem;
+}
+.section__limiter__h1 {
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.section__limiter__p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 1.2rem;
+  font-weight: bold;
+}
+.section {
+  padding: 3.5rem;
+}
+.section__limiter__button {
+  background-color: $green-color;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  padding-block: 1.6rem;
+  border-radius: 20px;
+  width: 15rem;
+  align-self: center;
+  margin-inline: auto;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .section__limiter__button {
+    margin-inline: 0px;
+  }
+}
+
+.section__limiter__button__p {
+  font-size: 1rem;
+  color: white;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  padding-left: 2rem;
+  margin-top: 2rem;
+  font-size: 50px;
+}
+.section__container__options {
+  display: flex;
+  background-color: white;
+  width: 16rem;
+  padding: 1rem;
+  align-items: center;
+  border-radius: 25px;
+}
+.section__master__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+.image__phone2 {
+  margin-top: 2.3rem;
+}
+.image__container__otter {
+  border-radius: 50px;
+  background-color: white;
+  margin-top: 2rem;
+}
+
+.master__image__container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.p__otter {
+  padding-left: 2rem;
+}
+.header__nav__ul__container {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  align-items: center;
+}
+.header__nav__container {
+  display: none;
+}
+@media (min-width: 768px) {
+  .header__nav__container {
+    display: contents;
+  }
+}
+.header__nav__ul__secondary__button {
+  padding-block: 1.6rem;
+  border-radius: 20px;
+  width: 15rem;
+  background-color: #e5f4f2;
+  text-align: center;
+  color: $green-color;
+  font-weight: bold;
+}
+.contact {
+  font-weight: bold;
+  color: $green-color;
+}
+.section__limiter__button__white {
+  padding-block: 1.6rem;
+  border-radius: 20px;
+  width: 15rem;
+  background-color: #e5f4f2;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  display: none;
+  p {
+    color: $green-color;
+  }
+}
+@media (min-width: 768px) {
+  .section__limiter__button__white {
+    display: inline;
+  }
+  .section {
+    display: flex;
+    gap: 1vh;
+  }
+  .phone1__image {
+    width: 50vh;
+  }
+  .section__limiter__p,
+  .section__limiter__h1 {
+    text-align: left;
+  }
+}
+
+.buttons__container {
+  display: flex;
+  gap: 1rem;
+  margin-top: 30px;
+}
